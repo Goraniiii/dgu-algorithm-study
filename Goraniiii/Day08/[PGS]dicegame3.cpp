@@ -45,10 +45,10 @@ int solution(int a, int b, int c, int d) {
             return arr[2] * arr[3];
         }
         else if(dif[1] == 0) {
-            arr[0] * arr[3];
+            return arr[0] * arr[3];
         }
         else {
-            arr[0] * arr[1];
+            return arr[0] * arr[1];
         }
     case 3:
         return arr[0];
